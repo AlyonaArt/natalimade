@@ -1,0 +1,19 @@
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+#owl-demo .item {
+  position: relative;
+}
+#owl-demo .item .title {
+  position:absolute;
+  bottom: 5%;
+  text-align:center;
+  background-color: darkgrey;
+  opacity: .75;
+  color:white;
+  width: 100%;
+  height: 15%;
+  font-size: 20px;
+}
