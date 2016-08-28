@@ -61,7 +61,7 @@ table {
 /*	border-bottom:#09F thin solid;
 	border-bottom-width:3px;*/
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 50px 0px;
+	margin:0px 0px 0px 0px;
 	text-align:center;
 	line-height:13px;
 }
@@ -91,6 +91,11 @@ table {
 }
 #s-container #s-menu-wrap .s-menu-item i.fa-instagram {
 	background:#517FA3;
+	color:#FFF;
+}
+
+#s-container #s-menu-wrap .s-menu-item i.fa-envelope {
+	background:green;
 	color:#FFF;
 }
 	
