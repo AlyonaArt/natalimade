@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'FontAwesome';*/
+  /*src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');*/
+  /*src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -15,42 +15,60 @@
    License: none (public domain)
 */
 
+/*html, body, div, span, applet, object, iframe,*/
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+/*a, abbr, acronym, address, big, cite, code,*/
+/*del, dfn, em, img, ins, kbd, q, s, samp,*/
+/*small, strike, strong, sub, sup, tt, var,*/
+/*b, u, i, center,*/
+/*dl, dt, dd, ol, ul, li,*/
+/*fieldset, form, label, legend,*/
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+/*article, aside, canvas, details, embed, */
+/*figure, figcaption, footer, header,  */
+/*menu, nav, output, ruby, section, summary,*/
+/*time, mark, audio, video {*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*border: 0;*/
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+/*}*/
+/*!* HTML5 display-role reset for older browsers *!*/
+/*article, aside, details, figcaption, figure, */
+/*footer, header, menu, nav, section {*/
+	/*display: block;*/
+/*}*/
+/*body {*/
+	/*line-height: 1;*/
+/*}*/
+/*ol, ul {*/
+	/*list-style: none;*/
+/*}*/
+/*blockquote, q {*/
+	/*quotes: none;*/
+/*}*/
+/*blockquote:before, blockquote:after,*/
+/*q:before, q:after {*/
+	/*content: '';*/
+	/*content: none;*/
+/*}*/
+/*table {*/
+	/*border-collapse: collapse;*/
+	/*border-spacing: 0;*/
+/*}*/
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-#clear {
-	clear:both;
-}
+/*#clear {*/
+	/*clear:both;*/
+/*}*/
 
 /* Component *******************************/
 /* Container */
 #s-container {
-	max-width:1180px;
+	
 	height:auto;
-	padding:10px;
-	margin:20px auto 0px auto;
+	
 }
 
 
@@ -61,14 +79,14 @@ table {
 /*	border-bottom:#09F thin solid;
 	border-bottom-width:3px;*/
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 50px 0px;
 	text-align:center;
 	line-height:13px;
 }
 
 #s-container #s-menu-wrap .s-menu-item {
-    width: 38px;
-    height: 55px;
+    width: 57px;
+    height: 83px;
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -85,23 +103,24 @@ table {
 	background:#3B5998;
 	color:#FFF;
 }
+
 #s-container #s-menu-wrap .s-menu-item i.fa-pinterest-square {
 	background:#CB2027;
 	color:#FFF;
 }
+
 #s-container #s-menu-wrap .s-menu-item i.fa-instagram {
 	background:#517FA3;
 	color:#FFF;
 }
-
 #s-container #s-menu-wrap .s-menu-item i.fa-envelope {
-	background:green;
+	background:#00bfa5;
 	color:#FFF;
 }
 	
 #s-container #s-menu-wrap .s-menu-item span {
-	width:32px;
-	height:32px;
+	width:80px;
+	height:80px;
     position: absolute;
     top: 10px;
     left: 0px;
@@ -112,7 +131,7 @@ table {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     display: block;
-	color:#445878;
+	color:#3949ab;
 	background:#FFF;
 /*	border:#09F thin solid;
 	border-width:2px;*/
@@ -163,7 +182,7 @@ span.active {
 
 #s-container #s-menu-wrap .s-menu-item:hover > .text {
     bottom: 0;
-	font-size:25px;
+	font-size:45px;
 	padding:0;
     -webkit-transition: all 0.5s ease-in-out;
    -moz-transition: all 0.5s ease-in-out;
@@ -174,9 +193,9 @@ span.active {
 }
 
 #s-container #s-menu-wrap .s-menu-item .s-icon {
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
 	padding:13px 9px 5px 4px;
-	font-size:25px;
+	font-size:45px;
 	text-align:center;
 }
