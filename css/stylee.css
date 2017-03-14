@@ -68,6 +68,7 @@
 #s-container {
 	
 	height:auto;
+  clear: both;
 	
 }
 
@@ -79,7 +80,7 @@
 /*	border-bottom:#09F thin solid;
 	border-bottom-width:3px;*/
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 50px 0px;
+	margin:20px 0px 0px 0px;
 	text-align:center;
 	line-height:13px;
 }

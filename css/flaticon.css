@@ -32,12 +32,14 @@ margin: 15px 0;
  
 }
 
-.flaticon-gps:before { content: "\f100"; }
-.flaticon-measure:before { content: "\f101"; }
-.flaticon-people:before { content: "\f102"; }
-.flaticon-present:before { content: "\f103"; }
-.flaticon-sewing:before { content: "\f104"; }
-.flaticon-signs:before { content: "\f105"; }
-.flaticon-signs-1:before { content: "\f106"; }
-.flaticon-signs-2:before { content: "\f107"; }
-.flaticon-window:before { content: "\f108"; }
+  .flaticon-box:before { content: "\f100"; }
+  .flaticon-businessman-success:before { content: "\f101"; }
+  .flaticon-classic-sewing-machine-with-spool-of-thread:before { content: "\f102"; }
+  .flaticon-fabric:before { content: "\f103"; }
+  .flaticon-measure:before { content: "\f104"; }
+  .flaticon-needle:before { content: "\f105"; }
+  .flaticon-people:before { content: "\f106"; }
+  .flaticon-people-1:before { content: "\f107"; }
+  .flaticon-scissors:before { content: "\f108"; }
+  .flaticon-trophy:before { content: "\f109"; }
+  .flaticon-window:before { content: "\f10a"; }
